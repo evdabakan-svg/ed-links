@@ -24,3 +24,7 @@
 .resource-actions{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
 .resource-actions a{display:inline-flex;align-items:center;justify-content:center;padding:8px 13px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.07);color:var(--text);font-size:11px;font-weight:700;text-decoration:none;transition:background .18s,border-color .18s}
 .resource-actions a:hover{background:rgba(185,242,124,.13);border-color:rgba(185,242,124,.55)}
+
+.bottom>a{display:flex;align-items:center;gap:8px;color:inherit;text-decoration:underline;text-underline-offset:3px}
+.bottom>a:hover{color:var(--green)}
+footer{display:flex;justify-content:center;align-items:center;gap:7px}
