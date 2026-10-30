@@ -12,7 +12,7 @@
 .platform-icon img,.platform-icon svg{position:relative;z-index:1}
 .platform-icon.yandex{background:#050505}
 .platform-icon.vk{background:#2678e8}
-.platform-icon.spotify{background:#303630}
+.platform-icon.spotify{background:transparent}
 .platform-icon.youtube{background:transparent}
 .platform-icon.apple{background:#303630}
 .platform-icon.amazon{background:#252d36}
