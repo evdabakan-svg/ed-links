@@ -30,3 +30,5 @@
 footer{display:flex;justify-content:center;align-items:center;gap:7px}
 
 @media(max-width:700px){body:has(.release) .resource-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}body:has(.release) .resource-actions a{min-width:0;padding:9px 4px;font-size:10px;white-space:nowrap}}
+
+@media(max-width:700px){body:has(.release) .resource-actions{justify-items:stretch}body:has(.release) .resource-actions a{text-align:center;justify-content:center}}
