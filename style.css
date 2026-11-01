@@ -34,3 +34,7 @@ footer{display:flex;justify-content:center;align-items:center;gap:7px}
 @media(max-width:700px){body:has(.release) .resource-actions{justify-items:stretch}body:has(.release) .resource-actions a{text-align:center;justify-content:center}}
 
 .footer-link{display:inline-flex;align-items:center;gap:7px;color:inherit;text-decoration:none}.footer-link:hover{color:var(--green)}
+
+/* Amazon Music horizontal brand logo */
+.platform .amazon-logo{display:block;width:145px;max-width:100%;height:30px;object-fit:contain;object-position:left center;flex:0 1 auto}
+@media(max-width:700px){.platform .amazon-logo{width:100%;max-width:125px;height:27px;object-position:center}}
