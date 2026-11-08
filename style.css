@@ -39,3 +39,6 @@ footer{display:flex;justify-content:center;align-items:center;gap:7px}
 .platform-icon.amazon{width:38px;height:38px;flex:0 0 38px;border-radius:50%;background:#fff;display:grid;place-items:center;overflow:hidden}
 .platform-icon.amazon .amazon-logo{display:block;width:27px;height:32px;max-width:100%;object-fit:contain;object-position:center}
 @media(max-width:700px){.platform-icon.amazon{width:38px;height:38px;flex-basis:38px}.platform-icon.amazon .amazon-logo{width:25px;height:30px}}
+/* Keep the complete album artwork visible on every release page and the homepage */
+.cover{object-fit:contain!important;object-position:center!important;background:#252c24!important}
+.cover-wrap{overflow:hidden;background:#252c24!important}
